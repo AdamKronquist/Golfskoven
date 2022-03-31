@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 0.46.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "adam_kronquist@hotmail.com",
+        "ascAppId": "1606702223",
+        "sku": "20220124",
+        "bundleIdentifier": "net.mullog.examensarbete"
+      }
+    }
+  }
+}
